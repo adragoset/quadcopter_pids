@@ -10,17 +10,33 @@
 				[
 					70,
 					94,
-					54
+					54,
+					0,
+					70,
+					0.8,
+					0.6,
+					0,
+					0.6
 				],
 				[
 					73,
 					85,
-					53
+					53,
+					0,
+					70,
+					0.8,
+					0.6,
+					0.6
 				],
 				[
 					75,
 					90,
-					13
+					13,
+					0,
+					80,
+					0.8,
+					0.6,
+					0.2
 				],
 				[
 					60,
@@ -135,7 +151,7 @@
 					"id": 0,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 1725,
+						"start": 1825,
 						"end": 1875
 					}
 				},
@@ -143,16 +159,40 @@
 					"id": 0,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 1275,
+						"start": 1375,
 						"end": 1425
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 1725,
+						"end": 1775
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 1275,
+						"end": 1325
 					}
 				},
 				{
 					"id": 1,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 1725,
+						"start": 1700,
 						"end": 1775
+					}
+				},
+				{
+					"id": 2,
+					"auxChannelIndex": 1,
+					"range": {
+						"start": 1850,
+						"end": 1925
 					}
 				},
 				{
@@ -160,7 +200,15 @@
 					"auxChannelIndex": 0,
 					"range": {
 						"start": 1275,
-						"end": 1575
+						"end": 1325
+					}
+				},
+				{
+					"id": 27,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 1425,
+						"end": 1475
 					}
 				},
 				{
@@ -213,30 +261,6 @@
 				},
 				{
 					"id": 28,
-					"auxChannelIndex": 1,
-					"range": {
-						"start": 1575,
-						"end": 1650
-					}
-				},
-				{
-					"id": 35,
-					"auxChannelIndex": 1,
-					"range": {
-						"start": 1175,
-						"end": 1550
-					}
-				},
-				{
-					"id": 36,
-					"auxChannelIndex": 0,
-					"range": {
-						"start": 1875,
-						"end": 1925
-					}
-				},
-				{
-					"id": 36,
 					"auxChannelIndex": 0,
 					"range": {
 						"start": 1725,
@@ -244,15 +268,15 @@
 					}
 				},
 				{
-					"id": 36,
+					"id": 28,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 1425,
-						"end": 1475
+						"start": 1875,
+						"end": 1925
 					}
 				},
 				{
-					"id": 36,
+					"id": 28,
 					"auxChannelIndex": 0,
 					"range": {
 						"start": 1275,
@@ -260,35 +284,27 @@
 					}
 				},
 				{
-					"id": 0,
+					"id": 28,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1425,
+						"end": 1475
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 35,
+					"auxChannelIndex": 1,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1175,
+						"end": 1250
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 35,
+					"auxChannelIndex": 1,
 					"range": {
-						"start": 900,
-						"end": 900
-					}
-				},
-				{
-					"id": 0,
-					"auxChannelIndex": 0,
-					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1325,
+						"end": 1400
 					}
 				}
 			],
@@ -609,17 +625,33 @@
 				[
 					42,
 					85,
-					35
+					35,
+					0,
+					70,
+					0.8,
+					0.6,
+					0,
+					0.6
 				],
 				[
 					46,
 					90,
-					38
+					38,
+					0,
+					70,
+					0.8,
+					0.6,
+					0.6
 				],
 				[
 					30,
 					90,
-					0
+					0,
+					0,
+					80,
+					0.8,
+					0.6,
+					0.2
 				],
 				[
 					50,
@@ -734,7 +766,7 @@
 					"id": 0,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 1725,
+						"start": 1825,
 						"end": 1875
 					}
 				},
@@ -742,16 +774,40 @@
 					"id": 0,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 1275,
+						"start": 1375,
 						"end": 1425
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 1725,
+						"end": 1775
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 1275,
+						"end": 1325
 					}
 				},
 				{
 					"id": 1,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 1725,
+						"start": 1700,
 						"end": 1775
+					}
+				},
+				{
+					"id": 2,
+					"auxChannelIndex": 1,
+					"range": {
+						"start": 1850,
+						"end": 1925
 					}
 				},
 				{
@@ -759,7 +815,15 @@
 					"auxChannelIndex": 0,
 					"range": {
 						"start": 1275,
-						"end": 1575
+						"end": 1325
+					}
+				},
+				{
+					"id": 27,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 1425,
+						"end": 1475
 					}
 				},
 				{
@@ -812,30 +876,6 @@
 				},
 				{
 					"id": 28,
-					"auxChannelIndex": 1,
-					"range": {
-						"start": 1575,
-						"end": 1650
-					}
-				},
-				{
-					"id": 35,
-					"auxChannelIndex": 1,
-					"range": {
-						"start": 1175,
-						"end": 1550
-					}
-				},
-				{
-					"id": 36,
-					"auxChannelIndex": 0,
-					"range": {
-						"start": 1875,
-						"end": 1925
-					}
-				},
-				{
-					"id": 36,
 					"auxChannelIndex": 0,
 					"range": {
 						"start": 1725,
@@ -843,15 +883,15 @@
 					}
 				},
 				{
-					"id": 36,
+					"id": 28,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 1425,
-						"end": 1475
+						"start": 1875,
+						"end": 1925
 					}
 				},
 				{
-					"id": 36,
+					"id": 28,
 					"auxChannelIndex": 0,
 					"range": {
 						"start": 1275,
@@ -859,35 +899,27 @@
 					}
 				},
 				{
-					"id": 0,
+					"id": 28,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1425,
+						"end": 1475
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 35,
+					"auxChannelIndex": 1,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1175,
+						"end": 1250
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 35,
+					"auxChannelIndex": 1,
 					"range": {
-						"start": 900,
-						"end": 900
-					}
-				},
-				{
-					"id": 0,
-					"auxChannelIndex": 0,
-					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1325,
+						"end": 1400
 					}
 				}
 			],
@@ -1208,17 +1240,33 @@
 				[
 					42,
 					85,
-					35
+					35,
+					0,
+					70,
+					0.8,
+					0.6,
+					0,
+					0.6
 				],
 				[
 					46,
 					90,
-					38
+					38,
+					0,
+					70,
+					0.8,
+					0.6,
+					0.6
 				],
 				[
 					30,
 					90,
-					0
+					0,
+					0,
+					80,
+					0.8,
+					0.6,
+					0.2
 				],
 				[
 					50,
@@ -1333,7 +1381,7 @@
 					"id": 0,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 1725,
+						"start": 1825,
 						"end": 1875
 					}
 				},
@@ -1341,16 +1389,40 @@
 					"id": 0,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 1275,
+						"start": 1375,
 						"end": 1425
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 1725,
+						"end": 1775
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 1275,
+						"end": 1325
 					}
 				},
 				{
 					"id": 1,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 1725,
+						"start": 1700,
 						"end": 1775
+					}
+				},
+				{
+					"id": 2,
+					"auxChannelIndex": 1,
+					"range": {
+						"start": 1850,
+						"end": 1925
 					}
 				},
 				{
@@ -1358,7 +1430,15 @@
 					"auxChannelIndex": 0,
 					"range": {
 						"start": 1275,
-						"end": 1575
+						"end": 1325
+					}
+				},
+				{
+					"id": 27,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 1425,
+						"end": 1475
 					}
 				},
 				{
@@ -1411,30 +1491,6 @@
 				},
 				{
 					"id": 28,
-					"auxChannelIndex": 1,
-					"range": {
-						"start": 1575,
-						"end": 1650
-					}
-				},
-				{
-					"id": 35,
-					"auxChannelIndex": 1,
-					"range": {
-						"start": 1175,
-						"end": 1550
-					}
-				},
-				{
-					"id": 36,
-					"auxChannelIndex": 0,
-					"range": {
-						"start": 1875,
-						"end": 1925
-					}
-				},
-				{
-					"id": 36,
 					"auxChannelIndex": 0,
 					"range": {
 						"start": 1725,
@@ -1442,15 +1498,15 @@
 					}
 				},
 				{
-					"id": 36,
+					"id": 28,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 1425,
-						"end": 1475
+						"start": 1875,
+						"end": 1925
 					}
 				},
 				{
-					"id": 36,
+					"id": 28,
 					"auxChannelIndex": 0,
 					"range": {
 						"start": 1275,
@@ -1458,35 +1514,27 @@
 					}
 				},
 				{
-					"id": 0,
+					"id": 28,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1425,
+						"end": 1475
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 35,
+					"auxChannelIndex": 1,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1175,
+						"end": 1250
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 35,
+					"auxChannelIndex": 1,
 					"range": {
-						"start": 900,
-						"end": 900
-					}
-				},
-				{
-					"id": 0,
-					"auxChannelIndex": 0,
-					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1325,
+						"end": 1400
 					}
 				}
 			],
@@ -2951,7 +2999,27 @@
 			"linkedTo": 0
 		},
 		{
+			"id": 0,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 0,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
 			"id": 1,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 2,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 27,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
@@ -2996,47 +3064,27 @@
 			"linkedTo": 0
 		},
 		{
+			"id": 28,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 28,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 28,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
 			"id": 35,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
 		{
-			"id": 36,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
-			"id": 36,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
-			"id": 36,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
-			"id": 36,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
-			"id": 0,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
-			"id": 0,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
-			"id": 0,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
-			"id": 0,
+			"id": 35,
 			"modeLogic": 0,
 			"linkedTo": 0
 		}
