@@ -2821,7 +2821,8 @@
 				}
 			],
 			"_featureMask": 939787400,
-			"_analyticsChanges": {}
+			"_analyticsChanges": {},
+			"_featureChanges": {}
 		}
 	},
 	"MOTOR_CONFIG": {
