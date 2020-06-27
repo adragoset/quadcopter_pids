@@ -2821,8 +2821,7 @@
 				}
 			],
 			"_featureMask": 939787400,
-			"_analyticsChanges": {},
-			"_featureChanges": {}
+			"_analyticsChanges": {}
 		}
 	},
 	"MOTOR_CONFIG": {
@@ -2839,7 +2838,7 @@
 		"ublox_sbas": 5,
 		"auto_config": 1,
 		"auto_baud": 0,
-		"home_point_once": 0,
+		"home_point_once": 1,
 		"ublox_use_galileo": 0
 	},
 	"BEEPER_CONFIG": {
