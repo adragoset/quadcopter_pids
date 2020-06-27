@@ -1,6 +1,6 @@
 {
-	"generatedBy": "10.6.0",
-	"apiVersion": "1.42.0",
+	"generatedBy": "10.7.0",
+	"apiVersion": "1.43.0",
 	"profiles": [
 		{
 			"PID": {
@@ -57,11 +57,12 @@
 				"pitch_rate_limit": 1998,
 				"yaw_rate_limit": 1998,
 				"throttleLimitType": 0,
-				"throttleLimitPercent": 100
+				"throttleLimitPercent": 100,
+				"rates_type": 0
 			},
 			"AccTrim": [
-				-2,
-				2
+				0,
+				0
 			],
 			"ServoConfig": [
 				{
@@ -656,11 +657,12 @@
 				"pitch_rate_limit": 1998,
 				"yaw_rate_limit": 1998,
 				"throttleLimitType": 0,
-				"throttleLimitPercent": 100
+				"throttleLimitPercent": 100,
+				"rates_type": 0
 			},
 			"AccTrim": [
-				-2,
-				2
+				0,
+				0
 			],
 			"ServoConfig": [
 				{
@@ -1255,11 +1257,12 @@
 				"pitch_rate_limit": 1998,
 				"yaw_rate_limit": 1998,
 				"throttleLimitType": 0,
-				"throttleLimitPercent": 100
+				"throttleLimitPercent": 100,
+				"rates_type": 0
 			},
 			"AccTrim": [
-				-2,
-				2
+				0,
+				0
 			],
 			"ServoConfig": [
 				{
@@ -2305,10 +2308,10 @@
 		"mag_hardware": 1
 	},
 	"PID_ADVANCED_CONFIG": {
-		"gyro_sync_denom": 2,
+		"gyro_sync_denom": 1,
 		"pid_process_denom": 1,
 		"use_unsyncedPwm": 0,
-		"fast_pwm_protocol": 6,
+		"fast_pwm_protocol": 7,
 		"motor_pwm_rate": 480,
 		"digitalIdlePercent": 5.5,
 		"gyroUse32kHz": 0,
@@ -2319,7 +2322,7 @@
 		"gyroOffsetYaw": 0,
 		"gyroCheckOverflow": 2,
 		"debugMode": 0,
-		"debugModeCount": 60
+		"debugModeCount": 63
 	},
 	"LED_MODE_COLORS": [
 		{
@@ -2611,7 +2614,7 @@
 	},
 	"FAILSAFE_CONFIG": {
 		"failsafe_delay": 4,
-		"failsafe_off_delay": 10,
+		"failsafe_off_delay": 100,
 		"failsafe_throttle": 1000,
 		"failsafe_switch_mode": 0,
 		"failsafe_throttle_low_delay": 100,
@@ -2708,7 +2711,7 @@
 				},
 				{
 					"bit": 4,
-					"group": "esc",
+					"group": "escMotorStop",
 					"name": "MOTOR_STOP"
 				},
 				{
@@ -2801,13 +2804,15 @@
 				},
 				{
 					"bit": 27,
-					"group": "esc",
+					"group": "escSensor",
 					"name": "ESC_SENSOR"
 				},
 				{
 					"bit": 28,
-					"group": "other",
-					"name": "ANTI_GRAVITY"
+					"group": "antiGravity",
+					"name": "ANTI_GRAVITY",
+					"haveTip": true,
+					"hideName": true
 				},
 				{
 					"bit": 29,
@@ -2815,7 +2820,7 @@
 					"name": "DYNAMIC_FILTER"
 				}
 			],
-			"_featureMask": 941950088,
+			"_featureMask": 941949064,
 			"_analyticsChanges": {}
 		}
 	},
@@ -2824,18 +2829,17 @@
 		"maxthrottle": 2000,
 		"mincommand": 1000,
 		"motor_count": 4,
-		"motor_poles": 14,
-		"use_dshot_telemetry": false,
+		"motor_poles": 12,
+		"use_dshot_telemetry": true,
 		"use_esc_sensor": true
 	},
 	"GPS_CONFIG": {
-		"provider": 1,
+		"provider": 0,
 		"ublox_sbas": 0,
 		"auto_config": 0,
-		"auto_baud": 0
-	},
-	"COMPASS_CONFIG": {
-		"mag_declination": 0
+		"auto_baud": 0,
+		"home_point_once": 0,
+		"ublox_use_galileo": 0
 	},
 	"BEEPER_CONFIG": {
 		"beepers": {
@@ -2987,31 +2991,11 @@
 			"linkedTo": 0
 		},
 		{
-			"id": 0,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
-			"id": 0,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
 			"id": 1,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
 		{
-			"id": 2,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
-			"id": 27,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
 			"id": 27,
 			"modeLogic": 0,
 			"linkedTo": 0
@@ -3052,27 +3036,47 @@
 			"linkedTo": 0
 		},
 		{
-			"id": 28,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
-			"id": 28,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
-			"id": 28,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
 			"id": 35,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
 		{
-			"id": 35,
+			"id": 36,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 36,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 36,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 36,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 0,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 0,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 0,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 0,
 			"modeLogic": 0,
 			"linkedTo": 0
 		}

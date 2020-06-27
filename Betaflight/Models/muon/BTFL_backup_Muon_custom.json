@@ -14,9 +14,9 @@
 					23,
 					90,
 					1,
-					0.4,
+					0.45,
 					0,
-					0.4
+					0
 				],
 				[
 					46,
@@ -25,8 +25,8 @@
 					25,
 					95,
 					1,
-					0.4,
-					0.4
+					0.45,
+					0
 				],
 				[
 					45,
@@ -35,8 +35,8 @@
 					0,
 					90,
 					1,
-					0.4,
-					0.4
+					0.45,
+					0
 				],
 				[
 					50,
@@ -58,9 +58,9 @@
 				"RC_RATE": 1,
 				"RC_EXPO": 0,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.7,
-				"pitch_rate": 0.7,
-				"yaw_rate": 0.7,
+				"roll_rate": 0.8,
+				"pitch_rate": 0.8,
+				"yaw_rate": 0.8,
 				"dynamic_THR_PID": 0.65,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
@@ -312,13 +312,13 @@
 			"AdjustmentRanges": [
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 2,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 950
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 1,
+					"auxSwitchChannelIndex": 2
 				},
 				{
 					"slotIndex": 0,
@@ -630,9 +630,9 @@
 					23,
 					90,
 					1,
-					0.4,
+					0.45,
 					0,
-					0.4
+					0
 				],
 				[
 					46,
@@ -641,8 +641,8 @@
 					25,
 					95,
 					1,
-					0.4,
-					0.4
+					0.45,
+					0
 				],
 				[
 					45,
@@ -651,8 +651,8 @@
 					0,
 					90,
 					1,
-					0.4,
-					0.4
+					0.45,
+					0
 				],
 				[
 					50,
@@ -674,9 +674,9 @@
 				"RC_RATE": 1,
 				"RC_EXPO": 0,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.7,
-				"pitch_rate": 0.7,
-				"yaw_rate": 0.7,
+				"roll_rate": 0.8,
+				"pitch_rate": 0.8,
+				"yaw_rate": 0.8,
 				"dynamic_THR_PID": 0.65,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
@@ -928,13 +928,13 @@
 			"AdjustmentRanges": [
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 2,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 950
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 1,
+					"auxSwitchChannelIndex": 2
 				},
 				{
 					"slotIndex": 0,
@@ -1246,9 +1246,9 @@
 					23,
 					90,
 					1,
-					0.4,
+					0.45,
 					0,
-					0.4
+					0
 				],
 				[
 					46,
@@ -1257,8 +1257,8 @@
 					25,
 					95,
 					1,
-					0.4,
-					0.4
+					0.45,
+					0
 				],
 				[
 					45,
@@ -1267,8 +1267,8 @@
 					0,
 					90,
 					1,
-					0.4,
-					0.4
+					0.45,
+					0
 				],
 				[
 					50,
@@ -1290,9 +1290,9 @@
 				"RC_RATE": 1,
 				"RC_EXPO": 0,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.7,
-				"pitch_rate": 0.7,
-				"yaw_rate": 0.7,
+				"roll_rate": 0.8,
+				"pitch_rate": 0.8,
+				"yaw_rate": 0.8,
 				"dynamic_THR_PID": 0.65,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
@@ -1544,13 +1544,13 @@
 			"AdjustmentRanges": [
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 2,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 950
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 1,
+					"auxSwitchChannelIndex": 2
 				},
 				{
 					"slotIndex": 0,
@@ -3006,31 +3006,11 @@
 			"linkedTo": 0
 		},
 		{
-			"id": 0,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
-			"id": 0,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
 			"id": 1,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
 		{
-			"id": 2,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
-			"id": 27,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
 			"id": 27,
 			"modeLogic": 0,
 			"linkedTo": 0
@@ -3071,27 +3051,47 @@
 			"linkedTo": 0
 		},
 		{
-			"id": 28,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
-			"id": 28,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
-			"id": 28,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
 			"id": 35,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
 		{
-			"id": 35,
+			"id": 36,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 36,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 36,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 36,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 0,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 0,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 0,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 0,
 			"modeLogic": 0,
 			"linkedTo": 0
 		}
