@@ -10,32 +10,16 @@
 				[
 					42,
 					85,
-					35,
-					23,
-					90,
-					1,
-					0.8,
-					0,
-					0
+					35
 				],
 				[
 					46,
 					90,
-					38,
-					25,
-					95,
-					1,
-					0.8,
-					0
+					38
 				],
 				[
 					45,
 					90,
-					0,
-					0,
-					90,
-					1,
-					0.8,
 					0
 				],
 				[
@@ -312,13 +296,13 @@
 			"AdjustmentRanges": [
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 2,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 950
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 1,
+					"auxSwitchChannelIndex": 2
 				},
 				{
 					"slotIndex": 0,
@@ -626,32 +610,16 @@
 				[
 					42,
 					85,
-					35,
-					23,
-					90,
-					1,
-					0.8,
-					0,
-					0
+					35
 				],
 				[
 					46,
 					90,
-					38,
-					25,
-					95,
-					1,
-					0.8,
-					0
+					38
 				],
 				[
 					45,
 					90,
-					0,
-					0,
-					90,
-					1,
-					0.8,
 					0
 				],
 				[
@@ -928,13 +896,13 @@
 			"AdjustmentRanges": [
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 2,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 950
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 1,
+					"auxSwitchChannelIndex": 2
 				},
 				{
 					"slotIndex": 0,
@@ -1242,32 +1210,16 @@
 				[
 					42,
 					85,
-					35,
-					23,
-					90,
-					1,
-					0.8,
-					0,
-					0
+					35
 				],
 				[
 					46,
 					90,
-					38,
-					25,
-					95,
-					1,
-					0.8,
-					0
+					38
 				],
 				[
 					45,
 					90,
-					0,
-					0,
-					90,
-					1,
-					0.8,
 					0
 				],
 				[
@@ -1544,13 +1496,13 @@
 			"AdjustmentRanges": [
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 2,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 950
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 1,
+					"auxSwitchChannelIndex": 2
 				},
 				{
 					"slotIndex": 0,
@@ -2662,11 +2614,11 @@
 	},
 	"FAILSAFE_CONFIG": {
 		"failsafe_delay": 4,
-		"failsafe_off_delay": 10,
+		"failsafe_off_delay": 70,
 		"failsafe_throttle": 1000,
 		"failsafe_switch_mode": 0,
 		"failsafe_throttle_low_delay": 100,
-		"failsafe_procedure": 1
+		"failsafe_procedure": 0
 	},
 	"RXFAIL_CONFIG": [
 		{
@@ -2869,8 +2821,7 @@
 				}
 			],
 			"_featureMask": 939787400,
-			"_analyticsChanges": {},
-			"_featureChanges": {}
+			"_analyticsChanges": {}
 		}
 	},
 	"MOTOR_CONFIG": {
